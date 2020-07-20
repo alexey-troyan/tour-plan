@@ -22,6 +22,10 @@
   .search
     &__input
       width: 340px
+  .slider 
+    width: 100%
+  .swiper-container 
+    height: 400px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -65,11 +69,23 @@
       &__offer
         order: -1
         margin-left: 0
+  .swiper-container 
+    height: 300px
 @media (max-width: 576px)
   .logo
     width: 99px
-
-@media (max-width: 480px) // на потом
-  .logo
-    width: 99px
+  .swiper-container 
+    height: 250px
+  .slider
+    &-button
+      &--next
+        right: 6px
+      &--prev
+        left: 6px
+      
+@media (max-width: 480px) 
+  .slider 
+    width: 100%
+  .swiper-container 
+    height: 179px
 
