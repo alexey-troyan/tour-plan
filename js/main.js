@@ -1,4 +1,4 @@
-$('.newsletter').parallax({ imageSrc: '../img/newsletter-bg.jpg' });
+$('.newsletter').parallax({ imageSrc: './img/newsletter-bg.jpg' });
 
 var hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
