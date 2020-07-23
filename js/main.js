@@ -1,5 +1,3 @@
-$('.newsletter').parallax({ imageSrc: './img/newsletter-bg.jpg' });
-
 var hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
   loop: true,
@@ -27,4 +25,6 @@ var reviewsSlider = new Swiper('.reviews-slider', {
     onlyInViewport: false,
   },
 });
+
+$('.newsletter').parallax({ imageSrc: './img/newsletter-bg.jpg' });
 

@@ -9,6 +9,8 @@
         width: 100%
         height: 100%
         object-fit: cover
+  .card
+    width: 230px
 
 @media (max-width: 992px)
   .container, .newsletter-wrapper
@@ -54,6 +56,12 @@
     &-slider
       &__item
         max-width: 580px
+  .activities
+    padding-bottom: 70px
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 339px
 
 @media (max-width: 768px)
   .container
@@ -137,6 +145,10 @@
           right: 50%
           margin-right: -65px
           transform: translate(50%,0)
+  .activities
+    padding-bottom: 70px
+  .card
+    width: 48%        
 
 @media (max-width: 576px)
   .logo
@@ -158,6 +170,15 @@
       font-size: 18px
       line-height: 23px
       margin-bottom: 40px
+  .activities
+    padding-top: 40px
+    padding-bottom: 60px
+    &__title
+      font-size: 18px
+      line-height: 23px
+      margin-bottom: 36px
+  .card
+    width: 100%   
 
 @media (max-width: 480px) 
   .hotel
@@ -176,5 +197,4 @@
       &__strong
         font-weight: 600
         font-size: 30px
-        line-height: 38px
-
+        line-height: 38px 
